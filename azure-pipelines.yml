@@ -1,10 +1,4 @@
 # Docker
-- task: Docker@2
-  inputs:
-    containerRegistry: 'Kyousuf Docker Hub'
-    repository: 'kyousuf/weatherapi'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
